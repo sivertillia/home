@@ -6,10 +6,12 @@ $(document).ready(function() {
     password_siv = "qwe";
     login_gus = "gus";
     password_gus = "zxc";
-    if (login == login_siv && password == password_siv || login == login_gus && password == password_gus) {
+    login_test = "test";
+    password_test = "123";
+    if (login == login_siv && password == password_siv || login == login_gus && password == password_gus || login == login_test && password == password_test) {
         alert("YES");
     }
-    else if (login == login_siv || login == login_gus) {
+    else if (login == login_siv || login == login_gus || login == login_test) {
         alert('Пароль неверный!'), top.location.href=""
     }
     else { alert('Логин не найден!'), top.location.href="" }
