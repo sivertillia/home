@@ -12,9 +12,9 @@ $(document).ready(function() {
         alert("YES");
     }
     else if (login == login_siv || login == login_gus || login == login_test) {
-        alert('Пароль неверный!'), top.location.href=""
+        alert('Пароль неверный!'), top.location.href="https://sivertillya.github.io/"
     }
-    else { alert('Логин не найден!'), top.location.href="" }
+    else { alert('Логин не найден!'), top.location.href="https://sivertillya.github.io/" }
 
 
 
