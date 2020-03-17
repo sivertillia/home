@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Music-cat</title>
+    <!--Style-->
+    <link rel="stylesheet" href="../../../music-cat/style/style.css">
+    <link rel="stylesheet" href="../../../music-cat/style/style.css">
+    <link rel="stylesheet" href="../../../music-cat/style/media-queries.css">
+    <link rel="stylesheet" href="../../../music-cat/lib/fontawesome/css/font-awesome.min.css">
+    <!--JavaScript-->
+    <script src="../../../music-cat/js/jquery.js"></script>
+    <script src="../../../music-cat/js/main.js"></script>
+    <!--Bootstrap-->
+    <!--<link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">-->
+
+
+</head>
+<body>
+
+
+<header>
+    <ul>
+        <li><a class="btn-menu-one acvite" href="">Главная</a></li>
+        <li class="border_left_right"><a href="">Афиша</a></li>
+        <li><a href="">Видео</a></li>
+        <li class="border_left_right"><a href="">О нас</a></li>
+        <li><a class="btn-menu-five" href="">Контакты</a></li>
+    </ul>
+    <h1>Слушайте <br>
+        новый <br>
+        альбом <br>
+        Cameron <br>
+        Young</h1>
+    <div class="social_block">
+        <div class="social_block_text">
+            <h3>Присоединяйтесь /</h3>
+        </div>
+        <div class="social_block_icons">
+            <a class="fa fa-vk" href=""></a>
+            <a class="fa fa-facebook" href=""></a>
+            <a class="fa fa-twitter" href=""></a>
+            <a class="fa fa-youtube-play" href=""></a>
+            <a class="fa fa-instagram" href=""></a>
+        </div>
+    </div>
+</header>
+<main>
+    <div class="wpr">
+        <div><img src="../../../music-cat/img/audio.jpg" alt=""></div>
+        <div class="player">
+            <div class="nameSong">Названия песни</div>
+            <div class="play-pause_big play-pause click" id="-1"></div>
+            <div class="settings">
+                <div class="btn_prev sledbtn click" id="pred" data-id="-1">◄</div> <!--Кнопка предыдущая песня-->
+                <div class="btn_next sledbtn click" id="sled" data-id="-1">►</div><!--Кнопка следующая песня-->
+                <div class="mute click">♪</div><!--Кнопка выключения/включения звука-->
+                <input type="range" class="volume volume-hide" min="0" max="100" value="100" ><!--Регулятор громкости-->
+            </div>
+            <div class="timeG">0:00</div>
+            <div class="bar">
+                <div class="setTime"></div>
+                <div class="range click">
+                    <div class="progress"></div>
+                    <div class="load"></div>
+                </div>
+            </div>
+            <div class="time">0:00</div>
+        </div>
+
+    </div>
+</main>
+<footer></footer>
+
+</body>
+</html>

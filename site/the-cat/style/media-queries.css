@@ -1,0 +1,43 @@
+@media screen and (max-width: 1170px){
+    main {
+        margin: 40px auto 0 100px;
+    }
+}
+@media screen and (max-width: 1140px){
+
+}
+@media screen and (max-width: 880px){
+    body {
+        display: block;
+    }
+    header {
+        margin: 0 auto;
+    }
+    .social_block {
+        margin: 40px 0 0 54px;
+    }
+    main {
+        margin: 0;
+    }
+    .wpr {
+        margin: 20px auto 10px auto;
+    }
+    .volume-hide {
+        position: absolute;
+        top: 5px;
+        left: 0;
+    }
+}
+@media screen and (max-width: 440px){
+    header h1 {
+        font-size: 40px;
+        margin: 25px 0 0 0;
+        text-align: center;
+    }
+    .social_block {
+        margin: 40px 0 0 130px;
+    }
+    .wpr {
+        margin: 0 20px;
+    }
+}
