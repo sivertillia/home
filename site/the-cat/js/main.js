@@ -23,7 +23,7 @@ $(document).ready( function(){
         var time;
         time = parseInt(songs[i][3]%60);
         if(time < 10) zeros = 0;
-        $('.wpr').append('<div class="song click" id="'+songs[i][0]+'"><div class="play-pause_song"></div><div class="nameSong_song">'+songs[i][1]+'</div><div class="downloadSong_song"><a href="'+songs[i][2]+'" download="dowmload" class="fa fa-download"></a></div><div class="duration_song">'+parseInt(songs[i][3]/60)+ ':'+zeros+time+'</div></div>');
+        $('.wpr').append('<div class="song click" id="'+songs[i][0]+'"><div class="play-pause_song"></div><div class="nameSong_song">'+songs[i][1]+'</div><div class="downloadSong_song"><a href="'+songs[i][2]+'" download="'+songs[i][1]+'" class="fa fa-download"></a></div><div class="duration_song">'+parseInt(songs[i][3]/60)+ ':'+zeros+time+'</div></div>');
     }
 
 
