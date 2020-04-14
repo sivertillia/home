@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: url("https://gen.jut.su/templates/school/images/index-bg-lite-18.jpg") 40% 0 no-repeat;
+}
+a {
+    text-decoration: none;
+}
+p {
+    display: inline;
+}
+.main_title {
+    font-family: sans-serif;
+    color: #2eba4e;
+    font-size: 40px;
+    text-align: center;
+}
+.list-all-anime-box {
+    display: block;
+    background: white;
+    border-left: #2eba4e;
+    border-right: #2eba4e;
+    width: 715px;
+    margin: 0 auto;
+}
+/*------------------------Block-Anime------------------------*/
+.list-anime-block {
+    display: inline-block;
+}
+.list-anime {
+    display: block;
+    width: 186px;
+    margin: 30px 20px 0 20px;
+}
+.list-anime-bottom {
+    background: #d9efc9;
+    width: 186px;
+    height: 15px;
+    border-bottom-left-radius: 93px 15px;
+    border-bottom-right-radius: 93px 15px;
+}
+.list-anime-img {
+    background: #d9efc9;
+    border-radius: 92px 92px 0 0;
+}
+.list-anime-img img{
+    border-radius: 50%;
+}
+.list-anime-name {
+    background: #d9efc9;
+    color: black;
+    text-align: center;
+}
+.list-anime-series {
+    background: #d9efc9;
+    color: #5b5b5b;
+    text-align: right;
+    padding: 12px 9px 20px 9px;
+}
