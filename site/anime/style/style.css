@@ -19,9 +19,9 @@ p {
 }
 .list-all-anime-box {
     display: block;
-    background: white;
-    border-left: #2eba4e;
-    border-right: #2eba4e;
+    background: #ffffff;
+    border-left: 3px solid #96c461;
+    border-right: 3px solid #96c461;
     width: 715px;
     margin: 0 auto;
 }
