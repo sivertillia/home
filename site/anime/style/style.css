@@ -4,6 +4,7 @@
 }
 body {
     background: url("https://gen.jut.su/templates/school/images/index-bg-lite-18.jpg") 40% 0 no-repeat;
+    font: 12px/1.5 verdana,sans-serif;
 }
 a {
     text-decoration: none;
@@ -12,10 +13,73 @@ p {
     display: inline;
 }
 .main_title {
-    font-family: sans-serif;
     color: #2eba4e;
     font-size: 40px;
     text-align: center;
+}
+.block {
+    display: block;
+}
+.none {
+    display: none;
+}
+/*-------------------------------------MAIN-------------------------------------*/
+.list-anime-search {
+    position: absolute;
+    top: 151px;
+    left: -1px;
+    right: 0;
+    bottom: 0;
+    width: 647px;
+    padding: 10px;
+    margin: 0 auto;
+    z-index: 1;
+    background: rgba(238, 245, 204, 0.9);
+}
+.anime_choose_block_content {
+
+}
+.anime_choose_block_content div > * {
+    cursor: pointer;
+}
+.second_title {
+    width: 645px;
+    padding: 10px;
+    background: #eef5cc;
+    margin: 0 auto;
+    border: 1px solid #adbd5b;
+    text-align: center;
+    color: #adbd5b;
+}
+.second_title_2 {
+    position: relative;
+    width: 185px;
+    margin: 0 0 0 24px;
+    padding: 10px;
+    z-index: 2;
+    background: #eef5cc;
+    border-top: none;
+    border-left: 1px solid #adbd5b;
+    border-right: 1px solid #adbd5b;
+    border-bottom: 1px solid #adbd5b;
+    text-align: center;
+    color: #646464;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+.second_title_2:hover {
+    cursor: pointer;
+}
+.second_title_2_bg {
+    position: absolute;
+    z-index: 0;
+    width: 667px;
+    height: 42px;
+    top: 109px;
+    left: 618px;
+    right: 0;
+    bottom: 0;
+    background: rgba(238, 245, 204, 0.9);
 }
 .list-all-anime-box {
     display: block;

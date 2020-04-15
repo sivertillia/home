@@ -1,40 +1,30 @@
 $(document).ready(function() {
-    // Sign in
-    login = prompt('Login:', '');
-    password = prompt('Password:', '');
-    login_siv = "siv";
-    password_siv = "qwe";
-    login_gus = "gus";
-    password_gus = "zxc";
-    login_test = "test";
-    password_test = "123";
-    if (login == login_siv && password == password_siv || login == login_gus && password == password_gus || login == login_test && password == password_test) {
-        alert("YES");
+    var listBlock = document.querySelector('.list-anime-search-box');
+    var listButton = document.querySelector('.second_title_2');
+
+    listButton.onclick = function() {
+        listBlock.classList.toggle('none');
+        listBlock.classList.toggle('block');
+    };
+
+
+
+
+
+
+    function check_for_no_anime(){
+        var show_some=false;
     }
-    else if (login == login_siv || login == login_gus || login == login_test) {
-        alert('Пароль неверный!'), top.location.href="https://sivertillya.github.io/"
+    $(".all_anime_global").each(function(indx,element){
+        if($(element).css("display")!="none"){show_some=true;return false;}
+    });
+    if($("#dle-content").outerHeight(){
+        $(".anime_choose_wall").outerHeight()+$(".mailBlock_h").outerHeight();
+        $("#dle-content").css({"min-height":($(".anime_choose_wall").outerHeight()+$(".mailBlock_h").outerHeight())+"px"});
     }
-    else { alert('Логин не найден!'), top.location.href="https://sivertillya.github.io/" }
-
-
-
-    // alert("Сайт Іллі");
-    // elem.onclick = link;
-    // //id.on<событие> = nameFuction;
-    // function link() {
-    //     alert("Help me!");
-    // };
-
-
-
-
-    $( "#viss" ).mousedown(function() {
-        pass.setAttribute("type", "text");
-        viss.setAttribute("class", "fa fa-eye");
-    });
-    $( "#viss" ).mouseup(function() {
-        pass.setAttribute("type", "password");
-        viss.setAttribute("class", "fa fa-eye-slash");
-    });
-
+    if(show_some) {
+        if ($(".anime_choose_no_anime_top").css("display") != "none") {
+            $(".anime_choose_no_anime_top").fadeOut(fade_anime_time)
+        };
+    };
 });
