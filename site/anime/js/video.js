@@ -2,7 +2,8 @@ $(document).ready(function() {
     var player = new Playerjs({
         "id":"player",
         "file":"[480]https://std.roomfish.ru/2147395789.mp4?md5=GeUkcpxMBl-QMxA16yUafg&time=1587066849,[720]https://hd.roomfish.ru/720/2147395789.mp4?md5=veVt-GHJMimfje3oY3E9AA&time=1587066849",
-        "qualities":"480p,720p"
+        "qualities":"480p,720p",
+        "poster":"https://sivertillya.github.io/site/anime/site/pet-na-kanojo/video/1.jpg"
     });
 
     function PlayerjsEvents(event,id,info){
@@ -13,7 +14,7 @@ $(document).ready(function() {
             console.log(event,id,info);
         }
         if(event== "seek") {
-            
+
         }
     }
 });
