@@ -123,3 +123,44 @@ p {
     text-align: right;
     padding: 12px 9px 20px 9px;
 }
+/*------------------------Block-Anime-Series------------------------*/
+.list-all-serias-anime {
+    width: 715px;
+    padding: 10px;
+}
+.list-all-serias-anime > .second_title {
+    color: black;
+    width: 673px;
+}
+.list-all-serias-anime-box {
+    display: inline-block;
+    margin: 10px;
+}
+.list-serias-anime-number {
+    display: inline-block;
+    background: #9dc532;
+    font-size: 16px;
+    padding: 12px 19px;
+    margin: 0 0 4px 0;
+    border-radius: 5px;
+}
+.list-serias-anime-number {
+    color: #ffffff;
+}
+.list-serias-anime-number:hover {
+    background: #BDE74C;
+    color: #4C6802;
+}
+/*-------------------------Anime Video-------------------------*/
+.anime-video {
+    width: 605px;
+    height: 340px;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border: 5px solid #d9dfbb;
+}
+.anime-video video {
+    width: 100%;
+    height: 100%;
+}
