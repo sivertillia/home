@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../../style/media-queries.css">
     <link rel="stylesheet" href="../../lib/css/font-awesome.min.css">
 
-    <script src="../../js/playerjs2.js"></script>
+    <script src="../../js/playerjs5.js"></script>
     
     <!--JS-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -25,17 +25,22 @@
             <div class="anime-video-box">
                 <div class="anime-video">
                     <div id="player"></div>
-                    <script>
-                        new Playerjs({
-                        "id":"player",
-  "file":"[480p]//site.com/video480.mp4,[720p]//site.com/video720.mp4"
-});
+                    <!-- <script>
                         var player = new Playerjs({
                             "id":"player",
                             "file":"[480]https://std.roomfish.ru/2147395789.mp4?md5=GeUkcpxMBl-QMxA16yUafg&time=1587066849,[720]https://hd.roomfish.ru/720/2147395789.mp4?md5=veVt-GHJMimfje3oY3E9AA&time=1587066849",
                             "qualities":"480p,720p"
                         });
-                     </script>
+                        function PlayerjsEvents(event,id,info){
+                            if(event=="play"){
+                                alert(event);
+                            }
+                            if(event == "time"){
+                                console.log(event,id,info);
+                            }
+                        }
+                     </script> -->
+                     <script src="../../js/video.js"></script>
                 </div>
             </div>
         </div>
