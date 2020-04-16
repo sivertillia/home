@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../../style/media-queries.css">
     <link rel="stylesheet" href="../../lib/css/font-awesome.min.css">
 
-    <script src="../../js/playerjs.js"></script>
+    <script src="../../js/playerjs2.js"></script>
     
     <!--JS-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -30,7 +30,15 @@
                     </video>
                     <div id="player"></div>
                     <script>
-                        var player = new Playerjs({id:"player", file:"https://r170201.kujo-jotaro.com/pet-na-kanojo/1.480.eb26c43012c2bbf5.mp4?hash1=1a1c29bf47ce3a8a19ad4f2884742e54&hash2=f33fa290efaab8acdc2d1622f4da8c59"});
+                        new Playerjs({
+                        "id":"player",
+  "file":"[480p]//site.com/video480.mp4,[720p]//site.com/video720.mp4"
+});
+                        var player = new Playerjs({
+                            "id":"player",
+                            "file":"[480]video/duel.mp4,[720]https://r170201.kujo-jotaro.com/pet-na-kanojo/1.720.76ffe65dcb4d3254.mp4?hash1=24e79cdbf69142b88053cd6aee4cc591&hash2=fbae160c506d12223a04b6f80d5d3f37",
+                            "qualities":"480p,720p"
+                        });
                      </script>
                 </div>
             </div>
