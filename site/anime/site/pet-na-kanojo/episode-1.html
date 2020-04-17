@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="../../lib/css/font-awesome.min.css">
     <link rel="icon" href="https://gen.jut.su/favicon.ico" type="image/x-icon">
 
-    <link href="https://vjs.zencdn.net/7.7.5/video-js.css" rel="stylesheet" />
+    <!-- <link href="https://vjs.zencdn.net/7.7.5/video-js.css" rel="stylesheet" /> -->
+    <link href="../../lib/video/video-ie8.css" rel="stylesheet" href="">
 
   <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
   <script src="../../lib/video/video-ie8.js"></script>
@@ -31,43 +32,22 @@
             <div class="anime-video-box">
                 <div class="anime-video">
                     <video
-    id="my-video"
-    class="video-js"
-    controls
-    preload="auto"
-    width="640"
-    height="264"
-    poster="MY_VIDEO_POSTER.jpg"
-    data-setup="{}"
-  >
-    <source src="video/duel.mp4" type="video/mp4" />
-    <p class="vjs-no-js">
-      To view this video please enable JavaScript, and consider upgrading to a
-      web browser that
-      <a href="https://videojs.com/html5-video-support/" target="_blank"
-        >supports HTML5 video</a
-      >
-    </p>
-  </video>
+                        id="my-video"
+                        class="video-js vjs-theme-forest"
+                        controls
+                        preload="auto"
+                        poster="MY_VIDEO_POSTER.jpg"
+                        width="605px" height="340px"
+                        data-setup="{}">
+                        <source src="video/duel.mp4" type="video/mp4" />
+                        <p class="vjs-no-js">
+                            To view this video please enable JavaScript, and consider upgrading to a web browser that
+                            <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+                        </p>
+                    </video>
 
-  <script src="https://vjs.zencdn.net/7.7.5/video.js"></script>
-                    <div id="player"></div>
-                    <!-- <script>
-                        var player = new Playerjs({
-                            "id":"player",
-                            "file":"[480]https://std.roomfish.ru/2147395789.mp4?md5=GeUkcpxMBl-QMxA16yUafg&time=1587066849,[720]https://hd.roomfish.ru/720/2147395789.mp4?md5=veVt-GHJMimfje3oY3E9AA&time=1587066849",
-                            "qualities":"480p,720p"
-                        });
-                        function PlayerjsEvents(event,id,info){
-                            if(event=="play"){
-                                alert(event);
-                            }
-                            if(event == "time"){
-                                console.log(event,id,info);
-                            }
-                        }
-                     </script> -->
-                     <script src="../../js/video.js"></script>
+  <script src="../../lib/video/videojs.js"></script>
+                    
                 </div>
             </div>
         </div>
