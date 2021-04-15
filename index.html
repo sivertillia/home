@@ -9,36 +9,75 @@
     <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="style/style.css" media="all">
     <link rel="stylesheet" href="style/media-queries.css" media="all">
+
+    <!--JS-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
 </head>
 <body>
     <header>
-        <div class="img_box">
-            <img src="img/photo-logo.webp" alt="">
-        </div>
-        <div class="name_box">
-            <h1>Ілля Сіверт</h1>
-        </div>
-        <div class="bio_box">
-            <p>I am a professional photographer based out of Chicago, IL, specializing in lifestyle<br>photograhy, landscapes and portraits.</p>
-        </div>
-        <div class="social_box">
-            <a href="https://www.facebook.com/profile.php?id=100015435013161" target="_blank" class="fa fa-facebook" aria-hidden="true"></a>
-            <a href="https://twitter.com/sivert11686" target="_blank" class="fa fa-twitter" aria-hidden="true"></a>
-            <a href="https://www.instagram.com/sivert_illya13/" target="_blank" class="fa fa-instagram" aria-hidden="true"></a>
-            <a href="https://vk.com/sivertofficial" target="_blank" class="fa fa-vk" aria-hidden="true"></a>
-        </div>
-        <div class="button_box">
-            <a href="#subscribe">Subscribe</a>
+        <div class="container">
+            <div class="img_box">
+                <img src="img/photo-logo.webp" alt="">
+            </div>
+            <div class="name_box">
+                <h1>Ілля Сіверт</h1>
+            </div>
+            <div class="bio_box">
+                <p>I am a professional photographer based out of Chicago, IL, specializing in lifestyle<br>photograhy, landscapes and portraits.</p>
+            </div>
+            <div class="social_box">
+                <a href="https://www.facebook.com/profile.php?id=100015435013161" target="_blank" class="fa fa-facebook" aria-hidden="true"></a>
+                <a href="https://twitter.com/sivert11686" target="_blank" class="fa fa-twitter" aria-hidden="true"></a>
+                <a href="https://www.instagram.com/sivert_illya13/" target="_blank" class="fa fa-instagram" aria-hidden="true"></a>
+                <a href="https://vk.com/sivertofficial" target="_blank" class="fa fa-vk" aria-hidden="true"></a>
+            </div>
+            <div class="button_box">
+                <a href="#subscribe" class="scroll_link_js">Subscribe</a>
+            </div>
         </div>
     </header>
-    <main></main>
+    <main>
+        <div class="container flex_container">
+            <div class="block_content_box">
+                <a class="block_content_link" href="/site/transport-schedule/">
+                    <div class="block_img_box">
+                        <img src="img/transport-schedule.jpg" alt="">
+                    </div>
+                    <div class="block_text_box">
+                        <div class="block_text_date cl_1">Четверг, 15 Апреля 2021 г.</div>
+                        <h1 class="block_text_title cl_1">Розклад транспорту в смт. Сутиски</h1>
+                        <p class="block_text cl_1">Recently, I stumbled upon a photo of this bridge I took 2 years ago on vacation. I took it for fun but it became a lasting memory of a special day.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </main>
     <footer id="subscribe">
-        <div class="footer_title"></div>
-        <div class="footer_from">
-            <form action="">
-                <!-- <input type="text">
-                <input type="submit" value="Subscribe"> -->
+        <div class="container">
+            <div class="footer_title">
+                <h2>Subscribe to my blog</h2>
+            </div>
+            <form action="" class="footer_from">
+                <input class="footer_input" type="email" name="email">
+                <input class="footer_button" type="submit" value="Subscribe">
             </form>
+            <div class="footer_line">
+                <hr>
+            </div>
+            <div class="social_box">
+                <a href="https://www.facebook.com/profile.php?id=100015435013161" target="_blank" class="fa fa-facebook" aria-hidden="true"></a>
+                <a href="https://twitter.com/sivert11686" target="_blank" class="fa fa-twitter" aria-hidden="true"></a>
+                <a href="https://www.instagram.com/sivert_illya13/" target="_blank" class="fa fa-instagram" aria-hidden="true"></a>
+                <a href="https://vk.com/sivertofficial" target="_blank" class="fa fa-vk" aria-hidden="true"></a>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="container">
+                <p>
+                    This site was created by me - Sіvert Illia.
+                </p>
+            </div>
         </div>
     </footer>
 </body>
