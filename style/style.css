@@ -27,12 +27,12 @@ header {
     margin-bottom: 90px;
 }
 
-.img_box {
-    /* width: 150px;
+/* .img_box {
+    width: 150px;
     height: 150px;
     margin: 0 auto;
-    overflow: hidden; */
-}
+    overflow: hidden;
+}*/
 .img_box > img {
     border-radius: 50%;
     /* overflow: hidden; */
@@ -136,7 +136,7 @@ footer {
 }
 
 .footer_line {
-    margin-top: 78px;
+    /* margin-top: 78px; */
     margin-bottom: 58px;
 }
 .footer_line hr {
