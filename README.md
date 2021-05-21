@@ -10,7 +10,5 @@
 [![MySQL](https://img.shields.io/badge/-MySQL-212121?style=for-the-badge&logo=mysql)](https://www.mysql.com/)
 
 ## Follow Me
-[![Twitch](https://img.shields.io/badge/-Twitch-212121?style=for-the-badge&logo=Twitch)](https://twitch.tv/devayzer)
-[![YouTube](https://img.shields.io/badge/-YouTube-212121?style=for-the-badge&logo=YouTube)](https://www.youtube.com/channel/UCYfaApw3EwWDJefTOP8TxIQ/videos)
-[![Instagram](https://img.shields.io/badge/-Instagram-212121?style=for-the-badge&logo=Instagram)](https://Instagram.com/devayzer)
-[![Twitter](https://img.shields.io/badge/-Twitter-212121?style=for-the-badge&logo=Twitter)](https://twitter.com/devayzer)
+[![Instagram](https://img.shields.io/badge/-Instagram-212121?style=for-the-badge&logo=Instagram)](https://Instagram.com/sivert_illya13)
+[![Twitter](https://img.shields.io/badge/-Twitter-212121?style=for-the-badge&logo=Twitter)](https://twitter.com/sivert11686)
