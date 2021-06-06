@@ -53,6 +53,29 @@ header {
     margin: 0 7px;
 }
 
+/* Social Color Hover */
+.social_box > a:hover:nth-child(1) {
+    color: #3b5998;
+    transition: .3s;
+}
+.social_box > a:hover:nth-child(2) {
+    color: #1DA1F2;
+    transition: .3s;
+}
+.social_box > a:hover:nth-child(3) {
+    color: #ff0000;
+    transition: .3s;
+}
+.social_box > a:hover:nth-child(4) {
+    color: #4c75a3;
+    transition: .3s;
+}
+.social_box > a:hover:nth-child(5) {
+    color: #0088cc;
+    transition: .3s;
+}
+
+
 .button_box {
     display: flex;
     max-width: 197px;
@@ -67,6 +90,11 @@ header {
     border-radius: 30px;
     color: #000000;
     padding: 20px 60px;
+}
+.button_box > a:hover {
+    background: #000000;
+    color: #ffffff;
+    transition: .5s;
 }
 
 
@@ -89,6 +117,26 @@ header {
 .block_img_box img {
     max-width: 560px;
     width: 100%;
+}
+.bio_box > p {
+    width: 35%;
+    margin: 0 auto;
+}
+.hcj {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+}
+.hcj > a {
+    color: #000000;
+    padding-left: 10px;
+}
+.hcj > a:hover {
+    border-radius: 10px;
+    color: #ffffff;
+    background: #000000;
+    transition: .5s;
+
 }
 
 
