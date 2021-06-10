@@ -1,0 +1,16 @@
+.footer {
+    background: #000000;
+    color: #ffffff;
+    text-align: center;
+}
+.footer p {
+    margin: 0 0 0 0;
+    padding: 25px 0 25px 0;
+}
+
+
+
+.dev_site_css {
+    color: #ffffff;
+    text-decoration: underline;
+}

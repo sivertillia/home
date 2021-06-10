@@ -140,6 +140,24 @@ header {
 }
 
 
+/* Serteficate */
+.serf_gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    background: #f5f5f5;
+}
+
+.serf_gallery a {
+    margin: 30px 20px;
+}
+
+.serf_gallery img {
+    width: 250px;
+    border: 2px solid black;
+}
+
 /* ----------Footer---------- */
 
 footer {
@@ -198,21 +216,7 @@ footer {
     margin-bottom: 0;
 }
 
-.footer {
-    background: #000000;
-    color: #ffffff;
-}
-.footer p {
-    margin: 0 0 0 0;
-    padding: 25px 0 25px 0;
-}
 
-
-
-.dev_site_css {
-    color: #ffffff;
-    text-decoration: underline;
-}
 
 
 

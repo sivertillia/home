@@ -6,12 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ілля Сіверт</title>
     <link rel="stylesheet" href="style/normalize.css" media="all">
+    <!-- lib style -->
     <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="lib/fancybox/jquery.fancybox.min.css">
+
+    <link rel="stylesheet" href="style/footer.css">
+
     <link rel="stylesheet" href="style/style.css" media="all">
     <link rel="stylesheet" href="style/media-queries.css" media="all">
 
     <!--JS-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="lib/jquery/jquery-3.6.0.min.js"></script>
+    <script src="lib/fancybox/jquery.fancybox.min.js"></script>
+
     <script src="js/main.js"></script>
 </head>
 <body>
@@ -40,10 +47,23 @@
         </div>
     </header>
     <main>
+        <div class="serf_gallery">
+            <a href="img/serf/serteficat.png" data-fancybox="serf-gallery" data-caption="Caption #1">
+                <img src="img/serf/serteficat.png" alt="">
+            </a>
+            <!-- <a href="img/serf/serteficat_1.jpg" data-fancybox="serf-gallery" data-caption="Caption #1">
+                <img src="img/serf/serteficat_1.jpg" alt="">
+            </a> -->
+            <a href="img/serf/serteficat_2.jpg" data-fancybox="serf-gallery" data-caption="Caption #1">
+                <img src="img/serf/serteficat_2.jpg" alt="">
+            </a>
+            <a href="img/serf/serteficat_3.jpg" data-fancybox="serf-gallery" data-caption="Caption #1">
+                <img src="img/serf/serteficat_3.jpg" alt="">
+            </a>
+        </div>
         <div class="container">
             <div class="main_title">
                 <h1>Мои проекты: </h1>
-
             </div>
             <div class="flex_container">
                 <div class="hcj">
@@ -85,11 +105,9 @@
             </div>
         </div>
         <div class="footer">
-            <div class="container">
-                <p>
-                    This site was created by - <a href="https://sivertillya.github.io/" class="dev_site_css">Sіvert Illia</a>.
-                </p>
-            </div>
+            <p>
+                This site was created by - <a href="https://sivertillya.github.io/home" class="dev_site_css">Sіvert Illia</a>.
+            </p>
         </div>
     </footer>
 </body>
