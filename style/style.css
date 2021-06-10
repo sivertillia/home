@@ -21,6 +21,27 @@ a {
     flex-wrap: wrap;
 }
 
+.flex_csb {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
 header {
     text-align: center;
     margin-top: 75px;
@@ -158,6 +179,38 @@ header {
     border: 2px solid black;
 }
 
+/* ----------Skills---------- */
+.ms_box {
+    width: 50%;
+    margin: 0 auto!important;
+}
+.ms_flex_item {
+    flex: 1 1 auto;
+    margin: 20px;
+}
+
+.ms_text {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0 6px 0;
+}
+.ms_text > * {
+    margin: 0 0 0 0;
+}
+
+.ms_line {
+    width: 100%;
+    height: 10px;
+    border-radius: 15px;
+    background: #dadada;
+}
+.ms_line_skill {
+    height: 100%;
+    border-radius: 15px;
+    background: red;
+}
+
+
 /* ----------Footer---------- */
 
 footer {
@@ -225,4 +278,17 @@ footer {
 
 .cl_1 {
     color: #000000;
+}
+
+.bg_py {
+    background:  #3776ab;
+}
+.bg_js {
+    background: #f0db4f;
+}
+.bg_html {
+    background: linear-gradient(90deg, #E44D26 0%, #F16529 100%);
+}
+.bg_css {
+    background: linear-gradient(90deg, #264de4 0%, #2965f1 100%);
 }
