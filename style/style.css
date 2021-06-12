@@ -9,6 +9,10 @@ a {
     text-decoration: none;
 }
 
+.img_box img {
+    width: 150px;
+    height: 150px;
+}
 
 .container {
     /* max-width: 1200px; */
@@ -178,38 +182,49 @@ header {
     width: 250px;
     border: 2px solid black;
 }
+/* My Project */
 
-/* ----------Skills---------- */
-.ms_box {
-    width: 50%;
-    margin: 0 auto!important;
+.wrapper_my_project {
+    width: 80%;
+    margin: 0 auto;
 }
-.ms_flex_item {
-    flex: 1 1 auto;
-    margin: 20px;
-}
+.project h2 {
+    color: #000000;
+    text-decoration: underline;
 
-.ms_text {
-    display: flex;
-    justify-content: space-between;
-    margin: 25px 0 6px 0;
 }
-.ms_text > * {
-    margin: 0 0 0 0;
+.project {
+    max-width: 300px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+    margin: 20px 20px;
+    padding: 15px;
 }
-
-.ms_line {
+.project img {
     width: 100%;
-    height: 10px;
-    border-radius: 15px;
-    background: #dadada;
+    height: 150px;
+    object-fit: cover;
+    object-position: 0% 90%;
 }
-.ms_line_skill {
-    height: 100%;
-    border-radius: 15px;
-    background: red;
+.project_img {
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
 }
 
+.kursi a {
+    color: #000000;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: underline;
+}
+
+.kursi a:hover {
+    border-radius: 10px;
+    color: #ffffff;
+    background: #000000;
+    transition: .5s;
+
+}
 
 /* ----------Footer---------- */
 
