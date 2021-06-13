@@ -193,6 +193,12 @@ header {
     text-decoration: underline;
 
 }
+
+.project h4 {
+    color: #000000;
+    text-decoration: underline;
+
+}
 .project {
     max-width: 300px;
     box-shadow: 0 0 10px rgb(0 0 0 / 50%);
