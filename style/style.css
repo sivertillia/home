@@ -206,6 +206,7 @@ header {
     object-position: 0% 90%;
 }
 .project_img {
+    display: block;
     width: 100%;
     height: 150px;
     overflow: hidden;
@@ -225,6 +226,14 @@ header {
     transition: .5s;
 
 }
+
+
+.project_img:hover img {
+    transform: scale(1.2);
+    transition: .6s;
+}
+
+
 
 /* ----------Footer---------- */
 
