@@ -195,7 +195,8 @@ header {
 }
 
 .project h4 {
-    color: #000000;
+    /* color: #000000; */
+    color: rgb(0, 0, 238);
     text-decoration: underline;
 
 }
