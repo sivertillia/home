@@ -99,7 +99,10 @@ header {
     color: #0088cc;
     transition: .3s;
 }
-
+.social_box > a:hover:nth-child(6) {
+    color: #9032ac;
+    transition: .3s;
+}
 
 .button_box {
     display: flex;
