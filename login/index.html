@@ -5,13 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin</title>
+    <link rel="stylesheet" href="style/style.css">
     <script src="../lib/jquery/jquery-3.6.0.min.js"></script>
     <script src="../js/API/login.js"></script>
     <script src="../js/main.js"></script>
 </head>
 <body>
-    <input type="text" name="email" id="">
-    <input type="password" name="password" id="">
-    <button id="btnLogin">Log In</button>
+    <div class="container">
+        <input type="text" name="email" placeholder="Email">
+        <input type="password" name="password" placeholder="Password">
+        <span class="error_text error_text_js"></span>
+        <input type="submit" id="btnLogin" value="Log In">
+    </div>
 </body>
 </html>
